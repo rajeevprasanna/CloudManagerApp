@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="cloud-manager-app"
+		module="cloud-manager-app_sjs0.6_2.11"
+		revision="1.0.0"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
+		date="20161025155351"/>
+	<dependencies>
+		<module organisation="com.mscharley" name="scalajs-nodejs_sjs0.6_2.11">
+			<revision name="0.1.0" status="release" pubdate="20160520154630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mscharley/scalajs-nodejs" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="MIT" url="https://github.com/mscharley/scalajs-nodejs/blob/master/LICENSE.md"/>
+				<metadata-artifact status="no" details="" size="2856" time="0" location="/Users/rajeevprasanna/.ivy2/cache/com.mscharley/scalajs-nodejs_sjs0.6_2.11/ivy-0.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/mscharley/scalajs-nodejs_sjs0.6_2.11/0.1.0/scalajs-nodejs_sjs0.6_2.11-0.1.0.pom"/>
+				<caller organisation="cloud-manager-app" name="cloud-manager-app_sjs0.6_2.11" conf="compile" rev="0.1.0" rev-constraint-default="0.1.0" rev-constraint-dynamic="0.1.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scalajs-nodejs_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="6195" time="0" location="/Users/rajeevprasanna/.ivy2/cache/com.mscharley/scalajs-nodejs_sjs0.6_2.11/jars/scalajs-nodejs_sjs0.6_2.11-0.1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/mscharley/scalajs-nodejs_sjs0.6_2.11/0.1.0/scalajs-nodejs_sjs0.6_2.11-0.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11">
+			<revision name="0.9.1" status="release" pubdate="20160613021815" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2804" time="0" location="/Users/rajeevprasanna/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.1/scalajs-dom_sjs0.6_2.11-0.9.1.pom"/>
+				<caller organisation="cloud-manager-app" name="cloud-manager-app_sjs0.6_2.11" conf="compile" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.11" type="jar" ext="jar" status="no" details="" size="2048170" time="0" location="/Users/rajeevprasanna/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.11/jars/scalajs-dom_sjs0.6_2.11-0.9.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.9.1/scalajs-dom_sjs0.6_2.11-0.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.11">
+			<revision name="0.6.13" status="release" pubdate="20161014033416" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.13/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="1">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2996" time="0" location="/Users/rajeevprasanna/.ivy2/cache/org.scala-js/scalajs-library_2.11/ivy-0.6.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13.pom"/>
+				<caller organisation="com.mscharley" name="scalajs-nodejs_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.9" rev-constraint-default="0.6.9" rev-constraint-dynamic="0.6.9" callerrev="0.1.0"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.9.1"/>
+				<caller organisation="cloud-manager-app" name="cloud-manager-app_sjs0.6_2.11" conf="compile" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.11" type="jar" ext="jar" status="no" details="" size="6733435" time="0" location="/Users/rajeevprasanna/.ivy2/cache/org.scala-js/scalajs-library_2.11/jars/scalajs-library_2.11-0.6.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.9" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.13"/>
+				<caller organisation="com.mscharley" name="scalajs-nodejs_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.9" rev-constraint-default="0.6.9" rev-constraint-dynamic="0.6.9" callerrev="0.1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.8" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
+				<evicted-by rev="0.6.13"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="default, compile, runtime, master" rev="0.6.8" rev-constraint-default="0.6.8" rev-constraint-dynamic="0.6.8" callerrev="0.9.1"/>
+				<caller organisation="cloud-manager-app" name="cloud-manager-app_sjs0.6_2.11" conf="compile" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="1.0.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304205633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/rajeevprasanna/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.mscharley" name="scalajs-nodejs_sjs0.6_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1.0"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.6.13"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.9.1"/>
+				<caller organisation="cloud-manager-app" name="cloud-manager-app_sjs0.6_2.11" conf="compile" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/Users/rajeevprasanna/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

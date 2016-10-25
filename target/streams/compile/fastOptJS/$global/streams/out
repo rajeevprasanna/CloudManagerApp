@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0mFast optimizing /Users/rajeevprasanna/Desktop/cloudManager/CloudManagerApp/target/scala-2.11/cloud-manager-app.js[0m
+[0m[[0mdebug[0m] [0mLinker: Compute reachability: 208736 us[0m
+[0m[[0mdebug[0m] [0mLinker: Assemble LinkedClasses: 352994 us[0m
+[0m[[0mdebug[0m] [0mBasic Linking: 576697 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Batch mode: true[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Incremental part: 200909 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizing 3503 methods.[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: Optimizer part: 535341 us[0m
+[0m[[0mdebug[0m] [0mInc. optimizer: 756657 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Compute reachability: 79001 us[0m
+[0m[[0mdebug[0m] [0mRefiner: Assemble LinkedClasses: 18075 us[0m
+[0m[[0mdebug[0m] [0mRefiner: 99546 us[0m
+[0m[[0mdebug[0m] [0mEmitter: Class tree cache stats: reused: 0 -- invalidated: 391[0m
+[0m[[0mdebug[0m] [0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 1791[0m
+[0m[[0mdebug[0m] [0mEmitter (write output): 634413 us[0m
+[0m[[0mdebug[0m] [0mGlobal IR cache stats: reused: 0 -- invalidated: 17 -- trees read: 504[0m
