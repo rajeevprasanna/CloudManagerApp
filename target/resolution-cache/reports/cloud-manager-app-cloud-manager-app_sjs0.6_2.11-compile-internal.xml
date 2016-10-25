@@ -7,7 +7,7 @@
 		revision="1.0.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty"
-		date="20161025155351"/>
+		date="20161025163504"/>
 	<dependencies>
 		<module organisation="com.mscharley" name="scalajs-nodejs_sjs0.6_2.11">
 			<revision name="0.1.0" status="release" pubdate="20160520154630" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/mscharley/scalajs-nodejs" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">

@@ -70,7 +70,5 @@ ${mainCl}(__dirname, require).main();
     libraryDependencies ++= Seq(
       "org.scala-js"  %%% "scalajs-dom"      % "0.9.1",
       "com.mscharley" %%% "scalajs-nodejs"   % "0.1.0"
-    ),
-
-    jsDependencies += RuntimeDOM
+    )
   )
