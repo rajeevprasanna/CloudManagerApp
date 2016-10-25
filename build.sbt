@@ -13,8 +13,9 @@ lazy val ElectronQuickStartSbt = (project in file(".")).
 
     persistLauncher in Compile := true,
     persistLauncher in Test := false,
+    scalaJSModuleKind := ModuleKind.CommonJSModule,
 
-    mainClass in Compile := Some("CloudConnectionComponent.App"),
+      mainClass in Compile := Some("CloudConnectionComponent"),
 
     artifactPath in (Compile, fastOptJS) :=
       ((crossTarget in (Compile, fastOptJS)).value /
