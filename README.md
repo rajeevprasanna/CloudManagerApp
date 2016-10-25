@@ -8,7 +8,8 @@ Run this app with below command :
     npm install && npm start
 
 
-Error occured with the app start : 
+Error occured with the app start :
+
     target/scala-2.11/cloud-manager-app.js.map -> src/main/electron/cloud-manager-app.js.map
     App threw an error during load
     ReferenceError: $i_electron is not defined
