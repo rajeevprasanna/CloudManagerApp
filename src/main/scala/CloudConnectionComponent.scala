@@ -6,7 +6,7 @@ import scala.scalajs.js.annotation.JSExport
 /**
   * Created by rajeevprasanna on 10/20/16.
   */
-@JSExport("CloudConnectionComponent.App")
+@JSExport("CloudConnectionComponent")
 object CloudConnectionComponent extends js.JSApp {
 
   @ScalaJSDefined
