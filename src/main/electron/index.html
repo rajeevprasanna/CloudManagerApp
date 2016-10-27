@@ -2,9 +2,20 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Cloud Manager</title>
-    <script type="text/javascript" src="../../../target/scala-2.11/cloud-manager-app-jsdeps.js" onload="window.$ = module.exports;"> </script>
-    <script type="text/javascript" src="../../../target/scala-2.11/cloud-manager-app.js"> </script>
+
+    <!-- Include JavaScript dependencies -->
+    <script type="text/javascript" src="../../../target/scala-2.11/cloud-manager-app-jsdeps.js"></script>
+    <!-- Include Scala.js compiled code -->
+    <script type="text/javascript" src="../../../target/scala-2.11/cloud-manager-app-opt.js"></script>
+
+    <script>
+    (function() {
+      window.onload = function() {
+        CloudConnectionComponent().main();
+      }
+    })();
+    </script>
+
 </head>
 <body>
     <div id="CloudConnectorsId"></div>
